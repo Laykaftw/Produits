@@ -12,8 +12,8 @@ const httpOptions = {
 })
 export class ProduitService {
   apiURL: string = 'http://localhost:8080/produits/api';
-  produits: Produit[]; //un tableau de produits
-  categories: Categorie[];
+  produits!: Produit[]; //un tableau de produits
+  categories!: Categorie[];
 
   constructor(private http: HttpClient) {
     //   this.categories = [
