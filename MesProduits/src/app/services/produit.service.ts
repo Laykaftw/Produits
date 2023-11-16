@@ -11,7 +11,7 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class ProduitService {
-  apiURL: string = 'http://localhost:8080/produits/api';
+  apiURL: string = 'http://localhost:8090/produits/api';
   produits!: Produit[]; //un tableau de produits
   categories!: Categorie[];
 
